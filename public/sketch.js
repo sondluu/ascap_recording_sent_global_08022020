@@ -102,7 +102,7 @@ function setup() {
  soundofBook = new p5.SoundFile(); //store the recorded sound into empty SoundFile and attach to variable "soundofBook"
   
  //https://sachiko-07262020.glitch.me/ 
- socket = io.connect ('https://sachiko-07262020.glitch.me/');  //https://sachiko-07262020.glitch.me/ //https://cocreativetest.herokuapp.com/
+ socket = io.connect ('https://cocreativetest.herokuapp.com/');  //https://sachiko-07262020.glitch.me/ //https://cocreativetest.herokuapp.com/
  button = document.getElementById('start');
  button.onclick = changeName;
   
